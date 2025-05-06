@@ -1,0 +1,16 @@
+{
+  "0001": {
+    "senha": "01",
+    "usuarios": [
+      "brayan",
+      "joao"
+    ]
+  },
+  "001": {
+    "senha": "01",
+    "usuarios": [
+      "brayan",
+      "brayan"
+    ]
+  }
+}

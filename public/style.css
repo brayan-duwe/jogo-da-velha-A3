@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+  }
+  
+  main {
+    background-image: url('imgs/fundo.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #logo {
+    height: 65px;
+}
+
+  header h1 {
+    margin: 0;
+    text-align: left;
+    padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  h2 {
+    margin: 0;
+    text-align: left;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    color: white;
+  }
+
+  header {
+    background-color: #05171f;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+body {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  #lobbySection {
+    background-color: rgba(5, 23, 31, 0.6);  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 30px;
+    gap: 10px;
+    font-size: 24px;
+}
+
+#username {
+    margin-bottom: 30px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 25px;
+    margin-bottom: 20px;
+  }
+
+.cell {
+  width: 120px;
+  height: 120px;
+  background-color: rgba(5, 23, 31, 0.6) !important;
+  border: 2px solid rgb(22, 65, 85);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+  color: white;
+}
+
+
+  input, button, select {
+    margin: 8px;
+    padding: 8px;
+    font-size: 16px;    
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    border: 2px;
+    border-radius: 30px;
+    background-color: white;
+    color: #05171f;
+    width: 400px;
+    box-shadow: none !important;
+    outline: none !important;
+    appearance: none; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #FC8869;
+    color: white;
+    border-color: white;
+    transform: scale(1.05);
+  }
+
+  input:hover {
+    color: rgb(0, 0, 0);
+    transform: scale(1.05);
+  }
+  
+
+  .box {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .box.active {
+    max-height: 300px;
+    opacity: 1;
+  }
+  
+
+  .hidden {
+    display: none;
+  }
+  
+  #scoreboard {
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  span, h1, #info, #scoreboard {
+    color: white;
+  }
+
+  #restart-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    h2 { font-size: 32px; }
+    #lobbySection { width: 90%; padding: 20px; font-size: 20px; }
+    input, button, select { font-size: 20px; width: 100%; max-width: none; }
+    #board { grid-template-columns: repeat(3, 80px); grid-template-rows: repeat(3, 80px); gap: 15px; }
+    .cell { width: 80px; height: 80px; font-size: 1.5em; }
+  }
+  
+  @media (max-width: 480px) {
+    h2 { font-size: 28px; }
+    #lobbySection { padding: 15px; font-size: 18px; }
+    input, button, select { font-size: 18px; padding: 6px; }
+    #board { grid-template-columns: repeat(3, 60px); grid-template-rows: repeat(3, 60px); gap: 10px; }
+    .cell { width: 60px; height: 60px; font-size: 1.2em; }
+    #restart-btn { font-size: 0.9rem; padding: 0.4rem 0.8rem; }
+  }
+  

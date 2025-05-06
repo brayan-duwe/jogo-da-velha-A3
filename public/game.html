@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogo da Velha</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="imgs/favicon.png" type="image/png">
+</head>
+<body>
+  <header>
+    <img id="logo" href="/index.html" src="imgs/logo.webp">
+    <a href="/index.html"><h1>X vs O</h1></a>
+  </header>
+  <main>
+    <h1>Jogo da Velha</h1>
+
+    <div id="scoreboard">
+      <span id="score-X">X: 0</span> |
+      <span id="score-O">O: 0</span> |
+      <span id="score-draw">Empates: 0</span>
+    </div>
+    <div id="info"></div>
+    <div id="board" class="board"></div>
+    <button id="restart-btn" class="hidden">Reiniciar partida</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

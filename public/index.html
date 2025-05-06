@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Entrar no Jogo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="imgs/favicon.png" type="image/png">
+</head>
+<body>
+  <header>
+    <img id="logo" href="/index.html" src="imgs/logo.webp">
+    <a href="/index.html"><h1>X vs O</h1></a>
+  </header>
+  <main>
+    <h2>Jogo da Velha Online</h2>
+    <div id="lobbySection">
+      <input type="text" id="username" placeholder="Digite seu username" />
+
+      <button onclick="toggleCreate()">Criar Sala</button>
+      <div id="createBox" class="box">
+        <input type="text" id="createRoomName" placeholder="Nome da Sala" />
+        <input type="password" id="createRoomPassword" placeholder="Senha da Sala" />
+        <button onclick="createRoom()">Confirmar Criação</button>
+      </div>
+
+      <button onclick="toggleJoin()">Entrar em uma Sala</button>
+      <div id="joinBox" class="box">
+        <input type="text" id="joinRoomName" placeholder="Nome da Sala" />
+        <input type="password" id="joinRoomPassword" placeholder="Senha da Sala" />
+        <button onclick="joinRoom()">Entrar na Sala</button>
+      </div>
+
+      <button onclick="toggleSolo()">Solo vs BOT</button>
+      <div id="soloBox" class="box">
+        <select id="soloDifficulty">
+          <option value="" disabled selected>Escolha a dificuldade  ▼</option>
+          <option value="easy">Fácil</option>
+          <option value="medium">Médio</option>
+          <option value="hard">Difícil</option>
+        </select>
+        <button onclick="startSolo()">Iniciar Solo</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="lobby.js"></script>
+</body>
+</html>
