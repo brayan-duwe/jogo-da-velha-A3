@@ -13,17 +13,23 @@ O projeto conta com funcionalidades de:
   
 O jogo conta com placar que identifica quem está ganhando na partida, além de um botão de reiniciar que aparece ao fim de cada rodada.
 
-![Homepage - X vs O](https://github.com/user-attachments/assets/b4f74466-523e-4618-adf4-643cd9a5e4ef)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/b4f74466-523e-4618-adf4-643cd9a5e4ef" alt="Homepage - X vs O"></br>
 *Página Inicial*
-
-![Hover](https://github.com/user-attachments/assets/1f2b7730-a2b6-4983-bba0-2ecfceb2de6c)
+</div></br>
+<div align="center">
+<img src="https://github.com/user-attachments/assets/1f2b7730-a2b6-4983-bba0-2ecfceb2de6c" width="400" alt="Homepage - X vs O"></br>
 *Hover nos botões*
-
-![Ampliação do menu ao clique de um item](https://github.com/user-attachments/assets/3be558c5-760c-4f20-a7b5-d109c1630180)
+</div></br>
+<div align="center">
+<img src="https://github.com/user-attachments/assets/3be558c5-760c-4f20-a7b5-d109c1630180" width="400" alt="Homepage - X vs O"></br>
 *Ampliação do menu ao clique de um item*
-
-![Escolha dificuldade](https://github.com/user-attachments/assets/c51d3eed-89f9-4d66-a0a5-e9fd403dfb0c)
+</div></br>
+<div align="center">
+<img src="https://github.com/user-attachments/assets/c51d3eed-89f9-4d66-a0a5-e9fd403dfb0c" width="400" alt="Homepage - X vs O"></br>
 *Escolha a dificuldade - no modo contra o bot*
-
-![Interface do jogo](https://github.com/user-attachments/assets/74b9b823-c24d-4988-bfea-863e8002a32f)
+</div></br>
+<div align="center">
+<img src="https://github.com/user-attachments/assets/74b9b823-c24d-4988-bfea-863e8002a32f" width="400" alt="Homepage - X vs O"></br>
 *Interface do jogo*
+</div></br>
