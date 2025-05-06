@@ -16,6 +16,8 @@ Nesse projeto foram utilizadas as seguintes tecnologias:
 - [🎲salas.json - Armazena nome da sala e senha (calma é só um protótipo😂)](/salas.json)
 
 
+### [Ver funções detalhadas do projeto🧐](#funções-do-projeto)
+
 O projeto conta com funcionalidades de:
 - Criar salas;
 - Entrar em salas já existentes;
@@ -23,7 +25,6 @@ O projeto conta com funcionalidades de:
   
 O jogo conta com placar que identifica quem está ganhando na partida, além de um botão de reiniciar que aparece ao fim de cada rodada.
 
-## [Ver funções detalhadas do projeto🧐](#funcionalidades-do-sistema)
 
 
 ## Imagens do projeto🖼️
@@ -50,7 +51,8 @@ O jogo conta com placar que identifica quem está ganhando na partida, além de 
 
 ---
 
-## Funcionalidades do Sistema
+## Funções do projeto🧐
+
 ## [`index.html`](/public/index.html)
 > 🏠 **Tela de entrada**
 * Onde o jogador:
