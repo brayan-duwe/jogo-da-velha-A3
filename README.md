@@ -6,7 +6,7 @@ Nesse projeto foram utilizadas as seguintes tecnologias:
     <img align="center" alt="css3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
     <img align="center" alt="javascript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /></div></br>
 
-## Sumário🔍
+## Visão geral🔍
 - 📁 [public](/public)
     - [📃index.html - Página Inicial do site](/public/index.html)
     - [📃game.html - Página do jogo](/public/game.html)
@@ -16,7 +16,6 @@ Nesse projeto foram utilizadas as seguintes tecnologias:
 - [🎲salas.json - Armazena nome da sala e senha (calma é só um protótipo😂)](/salas.json)
 
 
-
 O projeto conta com funcionalidades de:
 - Criar salas;
 - Entrar em salas já existentes;
@@ -24,7 +23,7 @@ O projeto conta com funcionalidades de:
   
 O jogo conta com placar que identifica quem está ganhando na partida, além de um botão de reiniciar que aparece ao fim de cada rodada.
 
-### [Ver funções detalhadas do projeto🧐](#funções-do-projeto)
+### [Ver estrutura detalhada do projeto🧐](#estrutura-do-projeto)
 
 ## Imagens do projeto🖼️
 <div align="center">
@@ -50,7 +49,7 @@ Interface do jogo
 
 ---
 
-## Funções do projeto🧐
+## Estrutura do projeto🧐
 
 ## [`index.html`](/public/index.html)
 > 🏠 **Tela de entrada**
